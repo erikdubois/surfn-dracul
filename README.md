@@ -1,36 +1,32 @@
-# Surfn Dracul icon theme
+<h1 align="center">
+  <img src="kiro.jpg" alt="Kiro" width="220" />
+  <br />
+  Surfn Dracul
+</h1>
 
-A Dracula-flavoured variant of the [Surfn](https://github.com/erikdubois/surfn) icon theme.
+![Last-Commit](https://img.shields.io/github/last-commit/erikdubois/surfn-dracul?style=for-the-badge)
 
-This package ships only the **Surfn-Dracul** theme. It inherits the base
-**Surfn** icon set, so the `surfn-icons-git` package is required.
+<img alt="GitHub followers" src="https://img.shields.io/github/followers/erikdubois?style=flat">&nbsp;&nbsp;<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/erikdubois/surfn-dracul">&nbsp;&nbsp;<img alt="GitHub forks" src="https://img.shields.io/github/forks/erikdubois/surfn-dracul">
 
-## Installation
+<img alt="YouTube Channel Subscribers" src="https://img.shields.io/youtube/channel/subscribers/UCJdmdUp5BrsWsYVQUylCMLg">&nbsp;&nbsp;<img alt="YouTube Channel Views" src="https://img.shields.io/youtube/channel/views/UCJdmdUp5BrsWsYVQUylCMLg">
 
-### Automatic (Arch / Kiro — nemesis_repo)
+---
+
+A colour variant of the [Surfn](https://github.com/erikdubois/surfn) icon theme. Ships only the **Surfn-Dracul** theme and inherits the base **Surfn** icon set, so `surfn-icons-git` is required.
+
+## Installation (Arch / Kiro — nemesis_repo)
 
 ```
 sudo pacman -S surfn-dracul-icons-git
 ```
 
-`surfn-icons-git` (the base Surfn theme) is pulled in automatically as a dependency.
+`surfn-icons-git` (base Surfn) is pulled in automatically as a dependency.
 
-### Manual
+## Manual
 
-Copy `usr/share/icons/Surfn-Dracul` into `~/.icons` (or `~/.local/share/icons`
-on Plasma), make sure the base `Surfn` theme is present too, then select
-**Surfn Dracul** in your desktop's appearance settings.
-
-## Usage
-
-Select **Surfn Dracul** via GNOME Tweaks, KDE System Settings → Icons, XFCE
-Appearance, or `lxappearance` on tiling window managers.
+Copy the **Surfn-Dracul** icon folder into `~/.icons` (or `~/.local/share/icons` on Plasma),
+make sure the base `Surfn` theme is present, then select **Surfn Dracul** in your appearance settings.
 
 ## License
 
-See [LICENSE](./LICENSE) — Attribution-NonCommercial-ShareAlike 4.0 International.
-
-## Acknowledgements
-
-- Surfn icon theme — https://github.com/erikdubois/surfn
-- Dracula colour palette — https://draculatheme.com
+[LICENSE](./LICENSE) — Attribution-NonCommercial-ShareAlike 4.0 International.
